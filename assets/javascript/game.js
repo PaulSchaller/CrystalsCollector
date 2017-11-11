@@ -2,7 +2,7 @@
 //loading the entire document and then starting the execution 
 $(document).ready(function() {
 
-//set the initial values of game variables
+//setting the initial values of game variables
 //generate a random number as the user's target score	
 	var numberToHit = Math.floor(Math.random()*102) + 19;
 	$('#targetNumber').text(numberToHit);
@@ -22,7 +22,7 @@ $(document).ready(function() {
 	var youWon = "Congratulations!  You won.";
 	var youLost = "Sorry.  You lost.";
 
-//output to the screen the starting record of no wins and no losses
+//output to the screen of the starting record of no wins and no losses
 	$('#wins').text(gamesWon);
 	$('#losses').text(gamesLost);
 
@@ -53,7 +53,7 @@ $(document).ready(function() {
 		newGame();
 	}
 
-//the function for if the user loses a game.  the record for the # of games won is increased by one and output to the screen.  a message is output.
+//the function for if the user loses a game.  the record for the # of games lost is increased by one and output to the screen.  a message is output.
 	function youLose(){
 		$('#winOrLose').text(youLost);
 		gamesLost++;
