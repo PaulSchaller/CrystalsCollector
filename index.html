@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>week-4-game</title>
+
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+</head>
+<body>
+	
+	<div class="container">
+
+	<div class="row">
+		<div class="col-sm-2"></div>
+		<div class="col-sm-4"></div>
+		<h1>CrystalsCollector</h1>
+		<div class="col=sm-2"></div>
+	</div>   
+	 
+
+	<div class="row">
+	
+		<div class="col-sm-8">
+		<h2>You will be given a random number at the start of the game.<br> 
+
+				There are four crystals below.  By clicking on a crystal, you will add a specific amount of points to your total score.<br>
+
+				You win the game by matching your total score to the random number.  You lose the game if your total score goes above the random number.<br>
+
+				The value of each crystal is hidden from you until you click on it.<br>
+
+				Each time when the game starts, the game will change the values of each crystal.</h2>
+
+		</div>
+	</div>
+		
+	<div class="row">
+		
+		<div class="col-sm-2">
+			<img class="Gem img-responsive" src="assets/images/Ruby.jpg" id="Ruby" alt="red">
+		</div>
+
+
+		<div class="col-sm-2">
+			<img class="Gem img-responsive" src="assets/images/Emerald.jpg" id="Emerald" alt="green">
+		</div>
+		
+		
+		<div class="col-sm-2">
+			<img class="Gem img-responsive" src="assets/images/Diamond.jpg" id="Diamond" alt="white">
+		</div>
+		
+	<div class="col-sm-2">
+			<img class="Gem img-responsive" src="assets/images/Sapphire.jpg" id="Sapphire" alt="blue">
+		</div>
+		
+	</div>
+	
+
+	
+	<div class="row" id="gameScores">
+		
+		<div class="col-sm-6" id="gameScoresA">
+			<h3>The Target Number to Match:  <br><br> <span id='targetNumber'></span> </h3>
+		</div>
+ 
+		<div class="col-sm-6"  id="gameScoresB">
+			<h4>Your Current Score Is:  <br><br>  <span id='userFinalTotal'></span></h4>
+		</div>
+
+	</div>
+ 
+	
+	<div class='row' id='messageBoard'>
+		<h5>Message Board:  <span id='winOrLose'></span></h5>
+		
+	</div>
+
+
+	<div class="row" id='Record'>
+		<h6>Your Record Is:  <br>
+			Wins:  <span id='wins'></span>   <br>
+			Losses:  <span id='losses'></span></h6>   
+	</div>
+	
+
+	<div class="push"></div>
+
+</div>
+
+		
+	<footer>
+		<div class="container" id="footerA">
+      		Copyright &copy; 2017 Paul Schaller
+      	</div>
+     </footer>
+ 
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+</body>
+</html>

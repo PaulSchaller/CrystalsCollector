@@ -1,0 +1,108 @@
+body {
+    background-image: url("../images/backgroundImage.jpg");
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+h1   {
+
+	color: white;
+	background-color: black;
+	font-size:  100px;
+}
+
+	
+h2 {
+	font-size: 30px;
+	color: black;
+	background-color:  #808080;
+	padding:  20px;
+	border: 25px solid black;
+	margin: 20px;
+}
+
+h3 {
+	font-size: 30px;
+	color: black;
+}
+
+h4 {
+	font-size: 30px;
+	color: black;
+}
+
+h5 {
+	font-size:  30px;
+}
+
+h6 {
+	font-size: 50px;
+}
+
+#gameScores {
+    border: 25px solid green;
+    margin: 25px;
+}
+
+#gameScoresA {
+	background-color: #666666;
+}
+
+
+#targetNumber  {
+	font-size:  50px;
+	color:  white;
+}
+
+#gameScoresB  {
+	background-color: #e0cc91;
+}
+
+#userFinalTotal  {
+	font-size:  50px;
+	color: white;
+}
+
+#messageBoard {
+	background-color:  white;
+	border:  25px solid black;
+	margin:  25px;
+}
+
+#winOrLose {
+	background-color: silver;
+	font-size: 100px;
+	color: gold;
+}
+
+#Record  {
+	background-color: purple;
+}
+
+#winOrLose {
+	color: white;
+	font-size: 50px;
+}
+
+#wins {
+	color: white;
+	font-size: 50px;
+}
+
+#losses {
+	color: white;
+	font-size: 50px;
+}
+
+
+#footerA  {
+	background-color: black;
+	color: gold;
+	font-size: 20px;
+	text-align: center;
+	font-weight: bold;
+	padding: 25px;
+}
