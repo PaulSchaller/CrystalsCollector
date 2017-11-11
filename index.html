@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>week-4-game</title>
 
-
+	<!--linking my bootstrap and css style sheets-->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
@@ -14,9 +14,10 @@
 	
 </head>
 <body>
-	
+	<!--using bootstrap for the layout of my webpage-->
 	<div class="container">
-
+	
+	<!--the title of the webpage for the users.  [CrystalsCollector].  the first 'row'-->
 	<div class="row">
 		<div class="col-sm-2"></div>
 		<div class="col-sm-4"></div>
@@ -24,7 +25,7 @@
 		<div class="col=sm-2"></div>
 	</div>   
 	 
-
+	<!--the second row. the second row is a box with text that gives the instructions of the game--> 
 	<div class="row">
 	
 		<div class="col-sm-8">
@@ -40,7 +41,8 @@
 
 		</div>
 	</div>
-		
+	
+	<!--The third row is the crystals (gems) that will be the buttons for which the user will use to play the game.-->	
 	<div class="row">
 		
 		<div class="col-sm-2">
@@ -64,7 +66,7 @@
 	</div>
 	
 
-	
+	<!--The next row includes the target number and the scores for the user as the user plays the game.--> 
 	<div class="row" id="gameScores">
 		
 		<div class="col-sm-6" id="gameScoresA">
@@ -77,25 +79,25 @@
 
 	</div>
  
-	
+	<!--The next row is a message board alerting the user when they win or lose a game.-->
 	<div class='row' id='messageBoard'>
 		<h5>Message Board:  <span id='winOrLose'></span></h5>
 		
 	</div>
 
-
+	<!--The next row gives the record of the wins and losses of the game.-->
 	<div class="row" id='Record'>
 		<h6>Your Record Is:  <br>
 			Wins:  <span id='wins'></span>   <br>
 			Losses:  <span id='losses'></span></h6>   
 	</div>
 	
-
+	<!--sticky footer-->
 	<div class="push"></div>
 
 </div>
 
-		
+	<!--my footer.-->	
 	<footer>
 		<div class="container" id="footerA">
       		Copyright &copy; 2017 Paul Schaller
@@ -103,7 +105,7 @@
      </footer>
  
 
-
+	<!--my link to the jQuery library-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script type="text/javascript" src="assets/javascript/game.js"></script>
 

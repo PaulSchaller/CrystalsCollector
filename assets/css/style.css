@@ -72,19 +72,12 @@ h6 {
 	margin:  25px;
 }
 
-#winOrLose {
-	background-color: silver;
-	font-size: 100px;
-	color: gold;
-}
-
 #Record  {
 	background-color: purple;
 }
 
 #winOrLose {
-	color: white;
-	font-size: 50px;
+	font-size: 100px;
 }
 
 #wins {
