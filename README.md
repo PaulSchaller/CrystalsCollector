@@ -1,10 +1,10 @@
 # Crystals Collector
 
-##This web app is a game that internet users can play.## 
+## This web app is a game that internet users can play.
 
-##To develop this web app, I used html, bootstrap, css, javascript, and jQuery.
+## To develop this web app, I used html, bootstrap, css, javascript, and jQuery.
 
-##My site is published at https://paulschaller.github.io/CrystalsCollector/
+## My site is published at https://paulschaller.github.io/CrystalsCollector/
 
 This is how the web app runs:
 This is the initial screen.  The player chooses from diffenent gems (diamond, sapphire, emerald, and ruby) by clicking on the 
