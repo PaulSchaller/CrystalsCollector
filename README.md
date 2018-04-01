@@ -6,7 +6,10 @@
 
 ## My site is published at https://paulschaller.github.io/CrystalsCollector/
 
+
 This is how the web app runs:
+
+
 This is the initial screen.  The player chooses from diffenent gems (diamond, sapphire, emerald, and ruby) by clicking on the 
 picture of the gem.  Each gem has a hidden value.  When the player clicks on the gem, the hidden value is added to the *current score*.
 The player tries to match the target score without going over.  If he is successful, the player wins the game.
