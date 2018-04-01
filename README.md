@@ -1,6 +1,6 @@
 # Crystals Collector
 
-##This web app is a game that internet users can play.  
+##This web app is a game that internet users can play.## 
 
 ##To develop this web app, I used html, bootstrap, css, javascript, and jQuery.
 
